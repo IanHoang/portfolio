@@ -1,0 +1,32 @@
+*
+{
+    margin: 0
+    padding: 0
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.jumbotron {
+    height: 500px;
+    text-align: center;
+}
+
+.jumbotron h1 {
+    padding: 1px;
+    margin: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+/* -------services------- */
+
+#services {
+    padding: 80px 0; 
+    text-align: center;
+    font-family: Avenir;
+}
+
+.service-img {
+    width: 100px;
+    margin-top: 20px;
+}
