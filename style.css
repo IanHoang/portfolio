@@ -7,6 +7,21 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+#nav-bar {
+    position: fixed;
+    width: 100vw;
+    height: 50px;
+    background-color: #DEDEDE;
+    transition: 0.2s;
+}
+
+.floatingNav {
+    width: calc(100vh - 100px); 
+    border-radius: 2px;
+    box-shadow: 0px 1px 10px #DEDEDE;
+  }
+  
+
 .jumbotron {
     height: 100vh;
     text-align: center;
@@ -19,17 +34,17 @@ body {
 
 .jumbotron h1 {
     padding: 1px;
-    margin: 25px;
-    font-family: 'Livvic', sans-serif;
-    font-weight: semi-bold;
-    font-style: italic; 
+    margin: 220px 0 0 0;
+    text-align: center;
+    font-family: 'Muli', sans-serif;
+    text-shadow: 4px 4px 4px #aaa;
 
 }
 
-/*-------About-------*/
+/*-------About Me-------*/
 #about_me h2 {
     padding: 1px;
-    margin: 50px;
+    margin: 50px 0 10px;
     font-size: 25px;
     font-family: 'Livvic', sans-serif; 
     font-weight: bold; 
@@ -38,7 +53,7 @@ body {
 
 #about_me p {
     padding: 1px;
-    margin: 50px;
+    margin: 0 0 50px;
     font-size: 16px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #666666;
@@ -47,19 +62,44 @@ body {
 #about_me button {
     margin: 50px;
 }
-   
 
+#about_me_2 .jumbotron {
+    height: 50vh;
+    text-align: center;
+    background: url( );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #FDE8E9;
+}
+
+#about_me_2 h2{
+
+    margin: 100px;
+    font-size: 70px;
+}
 /* -------services------- */
 
 #services {
-    padding: 80px 0; 
+    padding: 100px 0; 
+    height: 70vh;
+    background-color: #DAE6FF;
+
+}
+
+#services h4 {
+    padding: 100px 0; 
     text-align: center;
-    font-family: 'Merriweather', Serif;
+    font-family: 'Muli', Serif;
     font-weight: 300;
     font-size: 25px;
+    background-color: #DAE6FF;
+
 }
+
 
 .service-img {
     width: 100px;
     margin-top: 20px;
 }
+
