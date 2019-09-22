@@ -1,7 +1,7 @@
 *
 {
-    margin: 0
-    padding: 0
+    margin: 0;
+    padding: 0;
 }
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -40,6 +40,58 @@ body {
     text-shadow: 4px 4px 4px #aaa;
 
 }
+
+
+#article {
+    display: block;
+    height: 150vh;
+    /* text-align: left; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #FDE8E9;
+    font-family: 'Muli', sans-serif;
+    /* text-shadow: 4px 4px 4px #aaa; */
+
+}
+
+#article h1 {
+    display: block;
+    text-align: left;
+    display: block;
+    font-family: 'Muli', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    
+}
+
+#article p {
+    display: block;
+    text-align: left;
+    display: block;
+    font-family: 'Muli', sans-serif;
+    position: absolute;
+    font-size: 1.5rem;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#article iframe {
+    position: absolute;
+    top: 110%;
+    left: 48%;
+    transform: translateX(-50%) translateY(-50%);
+
+}
+
+
+
+
 
 /*-------About Me-------*/
 #about_me h2 {
